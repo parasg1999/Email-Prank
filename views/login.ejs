@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Yayy</title>
+</head>
+
+<body>
+
+<center>
+<form action="/sendEmail" enctype="multipart/form-data" method="POST">
+    <input style="width: 100%;" placeholder="From" type="type" required name="from">
+    <br>
+    <br>
+    <input style="width: 100%;" placeholder="To" type="email" required name="to">
+    <br>
+    <br>
+    <input style="width: 100%;" placeholder="Subject" type="text" required name="subject">
+    <br>
+    <br>
+    <textarea style="width: 100%; height: 20vh;" type="text" required name="text" placeholder="Text"></textarea>
+    <br>
+    <br>
+    <input type="file" name="file" >
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+</center>
